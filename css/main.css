@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap'); 
+
+/*body {
+    margin:0;
+    padding: 0;
+    background:url(../img/back.png)  center top ; 
+    background-size: cover;
+    height:100vh;
+}
+.login{
+ width:320px;
+ height:420px;
+ background: cyan;
+ color:black;
+ top:50%;
+ left:50%;
+ position: absolute;
+ transform: translate(-50%, -50%);
+ box-sizing: border-box;
+ padding: 70px  30px;
+ 
+
+}
+
+
+.login .icono{
+    width: 80px;
+    height: 80px;
+     border-radius: 50%;
+    position:absolute;
+    top:-50px;
+
+    left: calc(50% - 50px);
+    
+}
+
+.login h1 {
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center ;
+    font-size: 22px;
+
+}
+
+.login label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.login input[ type="submit"] {
+    height: 40px;
+    background: palegreen;
+    font-size: 18px;
+    border-radius: 20px;
+} */
+
+/* Navbar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin-left: 80px;
+    width: 100%;
+    margin-right: 60px;
+
+
+}
+
+header{
+   background-color: #1783db;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
+   width: 100%;
+   left: -80px;
+   position: relative;
+   margin-right: 0px;
+      
+}
+.header .logo1{
+    cursor: pointer;
+}
+
+.header  .logo1 img{
+    height: 70px;
+    margin-left: 50px;
+    width: auto;
+    transition: all 0,3s;
+    border-radius: 50%;
+    
+}
+
+.heder .logo1 img:hover{
+    transform: scale(1,2);
+}
+
+.header .nav-links{
+    list-style: none;
+    
+
+}
+.header .nav-links li{
+    margin-right: 20px;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.icon__menu{
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(10px);
+   
+
+}
+
+.icon__menu i{
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.options__menu{
+    padding: 20px 30px;
+
+    width: 180px;
+    height: 100%;
+    background: #1783db;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    color:white;
+    font-size: 18px;
+    z-index: 300;
+
+
+ 
+  
+}
+
+.menu__side{
+   padding: 100px -90px;
+   display: flex;
+   align-items: flex-start;
+   margin-top: 50px;
+
+}
+
+.name__page i{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.options__menu a{
+    color: #ffffffb2;
+    cursor: default;
+    display: block;
+    position: relative;
+}
+
+.options__menu a:hover{
+    color:white;
+
+}
+.options__menu .option{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.options__menu .option i{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.options__menu .option h4{
+    font-weight: 400;
+    cursor: pointer;
+}
+
+a.selected{
+    color: #fff;
+
+}
+a.selected:before{
+    content: '';
+    width:3px;
+    height: 80%;
+    background: white;
+    position: absolute;
+    top: 10%;
+    left: -30px;
+}
