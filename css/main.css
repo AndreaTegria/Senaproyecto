@@ -89,6 +89,7 @@ header{
    left: -80px;
    position: relative;
    margin-right: 0px;
+   
       
 }
 .header .logo1{
@@ -102,6 +103,11 @@ header{
     transition: all 0,3s;
     border-radius: 50%;
     
+}
+btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
 }
 
 .heder .logo1 img:hover{
