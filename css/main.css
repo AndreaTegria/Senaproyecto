@@ -105,10 +105,12 @@ header{
     border-radius: 50%;
     
 }
-btn {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 80px;
+.boton {
+    padding-top:80px;
+    padding-right: 50px;
+    display:inline-block;
+    margin-bottom: 90px;
+  
 }
 
 .heder .logo1 img:hover{
